@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Pixelify+Sans:wght@400;500&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --color-bg: #eeeeee;
+  --color-accent: #ab3429;
+  --color-text: #322c26;
+
+  /*========== Colors ==========*/
+  /* Change favorite color to match images */
+  --hue-color: 190;
+
+  --first-color: hsl(var(--hue-color), 64%, 22%);
+  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  --input-color: hsl(var(--hue-color), 24%, 97%);
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --white-color: #FFF;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+
+  --first-color-btn: hsl(260, 100%, 66%);
+  --second-color-btn: hsl(328, 100%, 66%);
+  --gradient-color: linear-gradient(75deg,
+      var(--second-color-btn) 12%,
+      var(--first-color-btn) 90%);
+  --first-color-light: hsl(260, 88%, 92%);
+  --first-color-dark: hsl(260, 80%, 16%);
+  --title-color: hsl(260, 80%, 18%);
+  --text-color: hsl(260, 24%, 32%);
+  --text-color-light: hsl(260, 16%, 65%);
+  --white-color: hsl(0, 0%, 100%);
+  --body-color: hsl(210, 46%, 95%);
+  --container-color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  background: var(--color-bg);
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  scroll-behavior: smooth;
+}
+
+/* .loader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(20, 20, 20);
+  color: white;
+  z-index: 10000;
+}
+
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 70px;
+  font-family: 'VT323', monospace;
+} */
+
+/* Video background */
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 800px; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box h1 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 50px;
+}
+
+.box p {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  video-container {
+    padding: 100px 50px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+  video-container {
+    padding: 0px 30px;
+  }
+
+  .box {
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+  }
+
+  .box h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .box p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+  <title>Ecstasy 24</title>
+  <link rel="stylesheet" href="./styles/merchandise.css">
+  <link rel="stylesheet" href="./styles/loader.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+  <div class="loader">
+    <div class="counter">0</div>
+  </div>
+
+  <nav id="navbar">
+    <div class="logo">
+      <a href="./index.html"><img src="./assets/logo/Logo.png" alt="#" /></a>
+    </div>
+    <div class="title">
+    </div>
+    <div class="toggle-btn">
+      <button class="burger" onclick="this.classList.toggle('active');"></button>
+    </div>
+  </nav>
+
+  <div class="card-slider">
+    <div class="nav">
+      <div class="prev">
+        <svg viewBox="0 0 50 9">
+          <path d="m0 4.5 5-3m-5 3 5 3m45-3h-77"></path>
+        </svg>
+      </div>
+      <div class="next">
+        <svg viewBox="0 0 50 9">
+          <path d="m0 4.5 5-3m-5 3 5 3m45-3h-77"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="items">
+      <div class="item is-active">
+        <p class="title"><span>Beige .... Front</span></p>
+        <div class="card">
+          <img class="card-bg" src="./assets/Merchandise/beige front.png" />
+        </div>
+      </div>
+
+      <div class="item">
+        <p class="title"><span>Beige .... Back</span></p>
+        <div class="card">
+          <img class="card-bg" src="./assets/Merchandise/beige back.png" />
+        </div>
+      </div>
+      <div class="item">
+        <p class="title"><span>Black .... Front</span></p>
+        <div class="card">
+          <img class="card-bg" src="/assets/Merchandise/black front.png" />
+        </div>
+      </div>
+      <div class="item">
+        <p class="title"><span>Black .... Back</span></p>
+        <div class="card">
+          <img class="card-bg" src="./assets/Merchandise/back.png" />
+        </div>
+      </div>
+      <div class="item">
+        <p class="title"><span>About the art</span></p>
+        <div class="card">
+          <img class="card-bg" src="./assets/Merchandise/About artwork poster_Instagram2.jpg.png" />
+        </div>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <div class="btn1">
+        <button><span>·</span>Buy now</button>
+      </div>
+      <div class="btn2">
+        <button><span>·</span>info</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay">
+    <div class="overlay-menu">
+      <div class="menu-item">
+        <div class="menu-item-name">
+          <p id="active">
+            <a href="./index.html">Home</a>
+          </p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">
+          <p><a href="./Team.html">Our Team</a></p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">
+          <p><a href="./index.html#about">About</a></p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-name">
+          <p><a href="./merchandise.html">Merchandise</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-sub-nav">
+      <p><a href="#">Twitter</a></p>
+      <p>·</p>
+      <p><a href="#">Instagram</a></p>
+      <p>·</p>
+      <p><a href="#">Facebook</a></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/CSSRulePlugin.min.js"></script>
+
+  <script src="./js/merchandise.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/secondaryLoader.js"></script>
+</body>
+
+</html>

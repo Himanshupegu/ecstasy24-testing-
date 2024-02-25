@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.team {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#281c3e, #0f051d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.team1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#281c3e, #0f051d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px;
+}
+
+.team-content {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.team-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.center h2 {
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-bottom: 2rem; */
+}
+
+.box {
+  padding: 16px;
+  background: #1b1229;
+  border-radius: 15px;
+  transition: all .38s ease;
+}
+
+.box h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.box h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #b7b4bb;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.icons i {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all .38s ease;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+@media(max-width: 1240px) {
+  .team {
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+  .team1 {
+    width: 100%;
+    height: auto;
+    padding: 5px 2%;
+  }
+
+  .center h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .box h3{
+    font-size: 1rem;
+  }
+  .team-content {
+    margin-top: 17px;
+  }
+
+  .team-content h5{
+    font-size: 0.8rem;
+  }
+
+  .team-content {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
