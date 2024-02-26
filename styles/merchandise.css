@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 
 .card-slider {
@@ -111,6 +112,14 @@
   position: absolute;
   top: 84%;
   left: 25%;
+  
+}
+.card-slider .nav-buttons .btn1 span{
+  /* position: absolute; */
+  /* top: 84%; */
+  /* left: 25%; */
+  font-size: 5px;
+  
 }
 
 
@@ -118,6 +127,23 @@
   position: absolute;
   top: 84%;
   left: 54%;
+}
+
+.card-slider .justForFun{
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.25em 0.75em;
+  font-size: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s;
+  z-index: 0;
+  left: 50%;
+  font-size: 15px;
+  color: rgb(253, 253, 253);
+  /* padding: 0.25em 0.75em; */
 }
 
 
@@ -201,7 +227,7 @@ button span {
   }
 
   .nav .prev {
-    top: 25rem;
+    top: 26.6rem;
     /* left: 4rem; */
     /* transform: scale(2); */
   }
@@ -210,6 +236,23 @@ button span {
     transform: scale(0.9);
   }
 
+  .card-slider .justForFun{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* padding: 0.25em 0.75em; */
+    font-size: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    z-index: 0;
+    left: 50%;
+    font-size: 15px;
+    color: rgb(253, 253, 253);
+    /* padding: 0.25em 0.75em; */
+  }
+  
 }
 
 
@@ -217,7 +260,7 @@ button span {
 
 nav {
   top: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 160px;
   display: flex;

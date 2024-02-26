@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .cursor {
   position: absolute;
   top: 0;
