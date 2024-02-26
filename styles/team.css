@@ -103,8 +103,9 @@
   .team {
     width: 100%;
     height: auto;
-    padding: 90px 2%;
+    padding: 110px 2%;
   }
+
   .team1 {
     width: 100%;
     height: auto;
@@ -116,14 +117,15 @@
     margin-top: 40px;
   }
 
-  .box h3{
+  .box h3 {
     font-size: 1rem;
   }
+
   .team-content {
-    margin-top: 17px;
+    margin-top: 15px;
   }
 
-  .team-content h5{
+  .team-content h5 {
     font-size: 0.8rem;
   }
 

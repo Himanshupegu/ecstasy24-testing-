@@ -210,8 +210,9 @@ hr {
   }
 
   .logo_area2 img {
-    margin-left: 145px;
+    margin-left: 130px;
     margin-bottom: 10px;
+    /* align-items: center; */
   }
 
   .profil .logo_area img {
