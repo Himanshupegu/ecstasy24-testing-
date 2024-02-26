@@ -16,7 +16,7 @@ const cultural = [
     role: '',
   },
   {
-    name: 'Variety Show',
+    name: 'Mr & Miss',
     role: '',
   },
   {
