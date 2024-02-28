@@ -232,3 +232,14 @@ hr {
   }
 
 }
+
+@media screen and (min-width: 1824px) {
+  .desc_area {
+    max-width: 560px;
+  }
+
+  .desc_area2 {
+    margin-right: 150px;
+  }
+
+}

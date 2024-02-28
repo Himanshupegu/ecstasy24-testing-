@@ -76,12 +76,13 @@ about {
   /* margin-right: 22px; */
   font-size: 24px;
 }
-.btn{
+
+.btn {
   margin-left: 155px;
 }
 
 .btn button {
-  background: white;
+  background: rgb(81, 54, 230);
   padding: 20px 32px;
   font-size: 16px;
   border: none;
@@ -92,13 +93,12 @@ about {
 
 }
 
-.btn button
-a{
+.btn button a {
   color: black;
 }
 
 .btn button:hover {
-  background-color: #1d44f9;
+  background-color: #ffffff;
   color: white;
   transition: 0.3s;
   cursor: pointer;
@@ -124,7 +124,6 @@ a{
 
 @media screen and (max-width: 650px) {
   .about .main img {
-    /* margin-bottom: 35px; */
     margin-bottom: 0;
     margin-left: 0;
     padding: 0;
@@ -139,10 +138,10 @@ a{
     padding: 10px 0 25px 0;
   }
 
-  .btn{
+  .btn {
     margin-left: 15px;
   }
-  
+
   .btn button {
     background: white;
     padding: 20px 32px;
@@ -152,7 +151,32 @@ a{
     box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
     margin-right: 20px;
     border-radius: 10px;
-  
+
   }
 
+}
+
+@media screen and (min-width: 1824px) {
+
+  .about .main img {
+
+    width: 620px;
+    max-width: 150%;
+    height: auto;
+    /* padding: 20px 30px; */
+    /* margin-left: 10px; */
+  }
+
+  .all-text h1 {
+    font-size: 85px;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+
+  .all-text p {
+    font-size: 20px;
+    color: #777777;
+    line-height: 33px;
+    margin-bottom: 35px;
+  }
 }
