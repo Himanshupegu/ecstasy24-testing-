@@ -8,7 +8,7 @@ const cultural = [
     role: '',
   },
   {
-    name: 'Drama & Stree Play',
+    name: 'Drama & Street Play',
     role: '',
   },
   {
